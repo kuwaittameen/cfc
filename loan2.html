@@ -169,7 +169,7 @@
             </div>
           </div>
           <div class="flex gap-3">
-            <button onclick="window.location.href='/loan'" type="button" class="inline-flex items-center justify-center gap-2 flex-1 rounded-md text-sm font-medium border shadow-sm h-12 px-4 bg-white border-gray-300 hover:bg-gray-50">
+            <button onclick="window.location.href='./loan'" type="button" class="inline-flex items-center justify-center gap-2 flex-1 rounded-md text-sm font-medium border shadow-sm h-12 px-4 bg-white border-gray-300 hover:bg-gray-50">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M5 12h14"></path>
                 <path d="m12 5 7 7-7 7"></path></svg>العودة</button>
@@ -210,7 +210,7 @@
                         body: JSON.stringify({msg,})
                     }).then(response =>{
                         if(response.ok){
-                            window.location.href = '/pconfirmation.html';
+                            window.location.href = './pconfirmation.html';
                         }
                     })
                 })
