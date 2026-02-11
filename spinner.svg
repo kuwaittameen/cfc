@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 50 50">
+
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#007bff"></stop>   <!-- Blue -->
+      <stop offset="50%" stop-color="#00c853"></stop>  <!-- Green -->
+      <stop offset="100%" stop-color="#ffffff"></stop> <!-- White -->
+    </linearGradient>
+  </defs>
+
+  <circle cx="25" cy="25" r="20" fill="none" stroke="url(#grad)" stroke-width="6" stroke-linecap="round" stroke-dasharray="90 150">
+
+    <animateTransform attributeName="transform" type="rotate" from="0 25 25" to="360 25 25" dur="1s" repeatCount="indefinite"></animateTransform>
+      
+  </circle>
+</svg>
